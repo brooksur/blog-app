@@ -21,7 +21,13 @@ const PostCreate = () => {
             onChange={e => setTitle(e.target.value)}
           />
         </div>
-        <button onClick={onSubmit}>Submit</button>
+        <button
+          className="btn btn-primary"
+          onClick={onSubmit}
+          style={{ marginTop: '15px' }}
+        >
+          Submit
+        </button>
       </form>
     </div>
   )
